@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Memory Vault",
+    "description": "Your personal memory vault as agent tools: weighted recall over a Markdown vault, writes that rebuild the index and changelog, lint, and credential redaction."
+  }
+}

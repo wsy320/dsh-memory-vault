@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Memory vault">
+  <defs>
+    <linearGradient id="vaultDoor" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3f6bd8"/>
+      <stop offset="1" stop-color="#1f3a86"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="10" width="52" height="46" rx="7" fill="#0f1a33"/>
+  <rect x="10" y="14" width="44" height="38" rx="5" fill="url(#vaultDoor)"/>
+  <circle cx="32" cy="33" r="13" fill="none" stroke="#dbe6ff" stroke-width="2.5" opacity="0.85"/>
+  <circle cx="32" cy="33" r="4.2" fill="#ffd166"/>
+  <g stroke="#ffd166" stroke-width="2.6" stroke-linecap="round">
+    <path d="M32 15.5v4"/>
+    <path d="M32 46.5v4"/>
+    <path d="M14.5 33h4"/>
+    <path d="M45.5 33h4"/>
+  </g>
+  <path d="M24 20.5 27 23M40 20.5 37 23M24 45.5 27 43M40 45.5 37 43" stroke="#dbe6ff" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+  <rect x="26" y="52.5" width="12" height="3" rx="1.5" fill="#dbe6ff" opacity="0.7"/>
+</svg>

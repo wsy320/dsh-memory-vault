@@ -1,0 +1,11 @@
+# dsh-memory-vault bundle layer: mount the personal memory vault row.
+# Loaded by DeepSeek Harness from package.json's dsh.bundle manifest.
+#
+# `vault` is deliberately absent: the folder differs per machine, so it is not a
+# bundle default. Pick it in 设置 → 记忆库, which writes the value into this
+# profile's own cordis.patch.yml as a volatile override. Until it is set the
+# plugin still mounts — the prompt section reports the vault as unavailable and
+# the four tools stay unregistered.
+- insert:
+    - id: dsh-memory-vault
+      name: '@wsy320/dsh-memory-vault'
