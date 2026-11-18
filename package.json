@@ -1,6 +1,6 @@
 {
   "name": "@wsy320/dsh-memory-vault",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Personal memory vault for DeepSeek Harness: weighted recall, guarded writes, self-checked frontmatter, secret redaction, and automatic git sync",
   "type": "module",
   "main": "index.js",
@@ -42,5 +42,22 @@
   "scripts": {
     "test": "node --test \"test/*.test.js\""
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsy320/dsh-memory-vault.git"
+  },
+  "homepage": "https://github.com/wsy320/dsh-memory-vault#readme",
+  "bugs": {
+    "url": "https://github.com/wsy320/dsh-memory-vault/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "memory"
+  ],
   "license": "MIT"
 }
